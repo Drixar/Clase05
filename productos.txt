@@ -22,5 +22,17 @@
     "title": "Libreta",
     "price": 300,
     "thumbnail": "https://panamericana.vteximg.com.br/arquivos/ids/261725-1080-1080/cuaderno-5-materias-argollado-incolors-de-hojas-cuadriculadas-7707668554700.jpg?v=636383267550730000"
+  },
+  {
+    "id": 5,
+    "title": "Monitor",
+    "price": "852",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/web-design-development-13/48/smartphone_phone_monitor_screen_gallery_image_website_webpage-64.png"
+  },
+  {
+    "id": 6,
+    "title": "Teclado",
+    "price": "80",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/hexagone-business-finance-set-1/128/BLOG_WRITING-64.png"
   }
 ]

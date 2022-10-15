@@ -46,11 +46,7 @@ productsRouter.get("/:id", async(req,res)=>{
 productsRouter.post("/",async(req,res)=>{
     const newProduct = req.body;
     const productos = await contenedorProductos.save(newProduct);
-    res.render('products', { products: contenedorProductos.getAll() })
-    res.json({
-        message:"producto creado",
-        response: productos
-    })
+    res.render('products', { products: productos})
 })
 
 productsRouter.put("/:id", async(req,res)=>{
