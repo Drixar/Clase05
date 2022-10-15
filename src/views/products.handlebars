@@ -1,0 +1,12 @@
+<h1 class="text-center  mt-3">Lista de Productos</h1>
+
+{{#if products}}
+    {{> table}}
+    {{else}}
+    <p>No se encontraron datos</p>
+{{/if}}
+
+
+<div class="text-center">
+    <a href="/api/productos" class="btn btn-danger" > <-- Home</a>
+</div>
